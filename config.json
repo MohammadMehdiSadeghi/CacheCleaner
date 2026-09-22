@@ -1,0 +1,9 @@
+{
+ "include_discovered": true,
+ "exclude_apps": [],
+ "lang": "en",
+ "window": {
+  "w": 1400,
+  "h": 900
+ }
+}

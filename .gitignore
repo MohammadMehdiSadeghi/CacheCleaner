@@ -1,0 +1,14 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Runtime output — recreated by the app
+logs/
+
+# Windows shell artifacts
+desktop.ini
+_shortcut_tmp.lnk
+*.lnk
+
+# Icon build intermediates — tools/make_icon.py regenerates them
+tools/_icon_*.png
