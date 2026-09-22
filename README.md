@@ -6,13 +6,15 @@ confirm it. Everything is read-only until you press the delete button.
 
 Interface: English, with a Persian (right-to-left) mode. Dark and keyboard-friendly.
 
+**To run the app, open `CacheCleaner.exe`** — the file with the sparkles icon in the
+project root. Double-click it; the window opens by itself.
+
 **Requires:** Windows 10/11 · Python 3.10+ · `pywebview` · WebView2
 
 ## Quick start
 
-Double-click **`CacheCleaner.exe`** in the project root. It finds a Python that has
-`pywebview` installed and starts the app. (`CacheCleaner.bat` does the same from the
-command line.)
+**Open `CacheCleaner.exe`.** It finds a Python that has `pywebview` installed and
+starts the app. (`CacheCleaner.bat` is the same thing for the command line.)
 
 First time only, if pywebview is missing:
 
