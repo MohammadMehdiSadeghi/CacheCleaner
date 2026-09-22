@@ -85,6 +85,24 @@ python tests/test_taskbar.py    rem the window/taskbar icon is ours
 Each prints `FAILURES: 0` and exits 0. The last three open the real window, so they
 take about a minute together.
 
+## Using the app
+
+The first scan starts by itself — press **Rescan** in the header to run it again. Each
+part of the window:
+
+- **Header** — free space per drive, admin chip, language button (FA/EN), **Help**, **Rescan**
+- **Stats** — total cache found, current selection, free space, last cleaned
+- **Toolbar** — tabs (**Caches** / **Installed software**), search box, filters, Size
+  band in MB, **Select low-risk**, **Clean selected**
+- **Table** — one row per cache: checkbox, application, path, size, risk
+- **Detail panel** — the selected cache explained: description, biggest files inside,
+  folder path, open-in-Explorer and delete buttons
+- **Status bar** — progress messages, rows shown, "show all" chip for small caches
+- **Footer** — author credit with the GitHub and LinkedIn links
+
+Tick a row and press **Clean selected** — a confirmation dialog appears first; nothing
+is ever deleted without it.
+
 ## License
 
 Released under the **MIT License** — full text in [`LICENSE`](LICENSE).
