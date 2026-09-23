@@ -6,7 +6,7 @@ confirm it. Everything is read-only until you press the delete button.
 
 Interface: English, with a Persian (right-to-left) mode. Dark and keyboard-friendly.
 
-**To run the app, open `CacheCleaner.exe`** — the file with the sparkles icon in the
+**To run the app, open `CacheCleaner.exe`** — the file in the
 project root. Double-click it; the window opens by itself.
 
 **Requires:** Windows 10/11 · Python 3.10+ · `pywebview` · WebView2
@@ -26,27 +26,27 @@ Desktop shortcut: `python make_shortcut.py`
 
 ## What it does
 
-- **Scans** ~490 cache locations in seconds and reports the size of each one, plus free
+* **Scans** ~490 cache locations in seconds and reports the size of each one, plus free
   space on every drive.
-- **Lists installed software** so you can see which program owns each cache.
-- **Explains the contents**: click a row to see the biggest files and subfolders inside
+* **Lists installed software** so you can see which program owns each cache.
+* **Explains the contents**: click a row to see the biggest files and subfolders inside
   that cache before you remove anything.
-- **Deletes safely**: only the *contents* of a cache folder are emptied — the folder
+* **Deletes safely**: only the *contents* of a cache folder are emptied — the folder
   stays, so applications keep working. Every deletion needs confirmation, and running
   apps are flagged.
-- **Search, filter, sort** — including a size band (default: 25 MB and up) and a
+* **Search, filter, sort** — including a size band (default: 25 MB and up) and a
   one-click "show all". Choices persist between launches.
-- **Command line** for scripts and scheduled tasks: `report.py`.
+* **Command line** for scripts and scheduled tasks: `report.py`.
 
 ## What is never touched
 
 Enforced in code and unit-tested (`tests/test_guard.py`). Never deleted:
 
-- Bookmarks, saved passwords, cookies, sessions, browser profiles
-- Telegram/Discord account data, chats, messages
-- Documents, Desktop, Downloads, Pictures, Videos, Music
-- `.ssh`, keys, cloud-sync folders, OneDrive
-- Installation files, and the cache folders themselves (only their contents)
+* Bookmarks, saved passwords, cookies, sessions, browser profiles
+* Telegram/Discord account data, chats, messages
+* Documents, Desktop, Downloads, Pictures, Videos, Music
+* `.ssh`, keys, cloud-sync folders, OneDrive
+* Installation files, and the cache folders themselves (only their contents)
 
 ## Language
 
@@ -90,15 +90,15 @@ take about a minute together.
 The first scan starts by itself — press **Rescan** in the header to run it again. Each
 part of the window:
 
-- **Header** — free space per drive, admin chip, language button (FA/EN), **Help**, **Rescan**
-- **Stats** — total cache found, current selection, free space, last cleaned
-- **Toolbar** — tabs (**Caches** / **Installed software**), search box, filters, Size
+* **Header** — free space per drive, admin chip, language button (FA/EN), **Help**, **Rescan**
+* **Stats** — total cache found, current selection, free space, last cleaned
+* **Toolbar** — tabs (**Caches** / **Installed software**), search box, filters, Size
   band in MB, **Select low-risk**, **Clean selected**
-- **Table** — one row per cache: checkbox, application, path, size, risk
-- **Detail panel** — the selected cache explained: description, biggest files inside,
+* **Table** — one row per cache: checkbox, application, path, size, risk
+* **Detail panel** — the selected cache explained: description, biggest files inside,
   folder path, open-in-Explorer and delete buttons
-- **Status bar** — progress messages, rows shown, "show all" chip for small caches
-- **Footer** — author credit with the GitHub and LinkedIn links
+* **Status bar** — progress messages, rows shown, "show all" chip for small caches
+* **Footer** — author credit with the GitHub and LinkedIn links
 
 Tick a row and press **Clean selected** — a confirmation dialog appears first; nothing
 is ever deleted without it.
